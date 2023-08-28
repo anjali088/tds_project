@@ -14,4 +14,19 @@ def user_input():
 
   data ={'First number':a,
           'Second number':b,
-          'Third number'
+          'Third number':c}
+
+  return a,b,c
+
+a,b,c = user_input()
+largest = 0
+if a>b and a>c:
+  largest = a
+elif b>a and b>c:
+  largest =b
+else:
+  largest =c
+
+
+st.subheader('Largest Number')
+st.write(largest)
