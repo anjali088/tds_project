@@ -1,7 +1,7 @@
 import streamlit as st 
 
 st.write("""
-# Welcome to My First App
+#Compare 3 numbers of your choice and find the largest
 """)
 
 st.header('You can input three number and check which one is greater ')
