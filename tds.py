@@ -4,7 +4,7 @@ st.write("""
 # Compare 3 numbers of your choice and find the largest
 """)
 
-st.header('You can input three number and check which one is greater ')
+st.header('You the numbers and check the greatest among all')
 st.header('User Input Parameter ')
 
 def user_input():
